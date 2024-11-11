@@ -4,22 +4,22 @@ In meinem Homestudio nutze ich gerne „Tethering Shooting“ um das gerade gema
 Rechner anzuzeigen, so das die Kundschaft das Bild schon direkt sehen kann. 
 Hier möchte ich eine kurze Anleitung zu meinem Setup mit der R5 vorstellen:
 
-1. Vorbereitung des Rechners
-1.1 Herausfinden der IP-Adresse des Rechners
-1.2 Installation des FTP-Server
-1.3 Konfiguration des FTP-Server
+1. Vorbereitung des Rechners<br>
+1.1 Herausfinden der IP-Adresse des Rechners<br>
+1.2 Installation des FTP-Server<br>
+1.3 Konfiguration des FTP-Server<br>
 
-2.   Vorbereiten der R5
-2.1  WLAN-Einstellungen
-2.2  Test der Verbindungen
+2.   Vorbereiten der R5<br>
+2.1  WLAN-Einstellungen<br>
+2.2  Test der Verbindungen<br>
      
-3. Anzeigegeräte einrichten
-3.1 IrfanView konfigurieren
-3.2 Anzeigen auf mehreren Geräten
-3.3 Tethershoot mit NAS-System
+3. Anzeigegeräte einrichten<br>
+3.1 IrfanView konfigurieren<br>
+3.2 Anzeigen auf mehreren Geräten<br>
+3.3 Tethershoot mit NAS-System<br>
 
 # 1. Vorbereitung des Rechner
-1.1 Herausfinden der IP-Adresse des Rechners
+## 1.1 Herausfinden der IP-Adresse des Rechners
 
 Um heraus zu finden welche IP-Adresse der Rechner hat, bitte folgendes auf dem Rechner ausführen:
 In der Suchleiste gibt man „CMD“ ein, gefolgt von der Returntaste.  
