@@ -20,6 +20,7 @@ Hier möchte ich eine kurze Anleitung zu meinem Setup mit der R5 vorstellen:
 4. Übertragung zu anderen Systemen<br>
 4.1 Tethershoot mit NAS-System<br>
 4.2 Tethershoot mit FTP-Server im Internet
+4.3 Cloudspeicher
 
 Canon Webseite für die Wireless-Einstellungen
 
@@ -193,7 +194,7 @@ die Hot-Folderoption von Irfanview einzubinden (Netzlaufwerk verbinden sowie UNC
 Somit hat man die Möglichkeit, das gerade gemacht Bild auf 2 Rechner gleichzeitig an zu zeigen.
 Bei mir liegt die Übertragungszeit bei ca 4 Sekunden auf 2 Geräte.<br>
 
-# 4.0 Übertragung zu anderen Systemen
+# 4. Übertragung zu anderen Systemen
 
 ## 4.1 Tethershooting mit NAS-System
 
@@ -206,10 +207,20 @@ zugreifen.<br>
 ## 4.2 Tethershoot mit FTP-Server im Internet
 
 Ebenso ist es möglich bei den FTP Server Einstellungen in der Kamera eine FTP-Server im Internet zu verbinden.
-Man sollte aber darauf achten das man das Protokol SFTP bei der Konfiguration in der Kamera auswählt um eine
+Man sollte aber darauf achten das man das Protokol FTPS bei der Konfiguration in der Kamera auswählt um eine
 verschlüsselte Verbindung über das Internet auszubauen.
 
+Dazu ist es nötig das Stammzertifikat des FTP-Servers im Internet in der Kamera zu installieren.
 
+Hierzu mehr in diesem Video:
+
+https://www.youtube.com/watch?v=jJLk-dxuLeI
+
+## 4.3 Cloudspeicher
+
+Falls die Bilder in einen Cloudspeicher übertragen werden sollen, muss dieser das FTP/FTPS Protokoll unerstützen.
+
+Genaueres finden Sie in der Dokumentation ihres Ambieters.
 
 
 
@@ -217,7 +228,9 @@ verschlüsselte Verbindung über das Internet auszubauen.
 
 https://cam.start.canon/de/C003/manual/html/UG-06_Network_0010.html
 
-Hoffe ich kann jemand damit helfen.
+------------------------------------------------------------
+
+Ich hoffe das ich jemanden mit meiner Anleitung helfen kann.
 
 Greetings Torsten
 
