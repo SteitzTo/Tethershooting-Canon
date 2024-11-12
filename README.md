@@ -16,8 +16,12 @@ Hier möchte ich eine kurze Anleitung zu meinem Setup mit der R5 vorstellen:
 3. Anzeigegeräte einrichten<br>
 3.1 IrfanView konfigurieren<br>
 3.2 Anzeigen auf mehreren Geräten<br>
-3.3 Tethershoot mit NAS-System<br>
-3.4 Tethershoot mit FTP-Server im Internet
+
+4. Übertragung zu anderen Systemen<br>
+4.1 Tethershoot mit NAS-System<br>
+4.2 Tethershoot mit FTP-Server im Internet
+
+Canon Webseite für die Wireless-Einstellungen
 
 # 1. Vorbereitung des Rechner
 ## 1.1 Herausfinden der IP-Adresse des Rechners
@@ -189,7 +193,9 @@ die Hot-Folderoption von Irfanview einzubinden (Netzlaufwerk verbinden sowie UNC
 Somit hat man die Möglichkeit, das gerade gemacht Bild auf 2 Rechner gleichzeitig an zu zeigen.
 Bei mir liegt die Übertragungszeit bei ca 4 Sekunden auf 2 Geräte.<br>
 
-## 3.3 Tethershooting mit NAS-System
+# 4.0 Übertragung zu anderen Systemen
+
+## 4.1 Tethershooting mit NAS-System
 
 Es ist auch möglich auf einem NAS-Server (in meinem Fall von Qnap) einen FTP-Server einzurichten und 
 die Bilder direkt zur NAS zu senden.<br>
@@ -197,12 +203,19 @@ Möchte man die Bilder dann gleichzeitig wieder über Irfanview anzeigen, sollte
 Dateifreigabe des FTP- Verzechnisses einrichten und über die Hotfolder-Option von Irfanview darauf 
 zugreifen.<br>
 
-## 3.4 Tethershoot mit FTP-Server im Internet
+## 4.2 Tethershoot mit FTP-Server im Internet
 
 Ebenso ist es möglich bei den FTP Server Einstellungen in der Kamera eine FTP-Server im Internet zu verbinden.
 Man sollte aber darauf achten das man das Protokol SFTP bei der Konfiguration in der Kamera auswählt um eine
 verschlüsselte Verbindung über das Internet auszubauen.
 
+
+
+
+
+## Canon Webseite für die Wireless-Einstellungen:
+
+https://cam.start.canon/de/C003/manual/html/UG-06_Network_0010.html
 
 Hoffe ich kann jemand damit helfen.
 
